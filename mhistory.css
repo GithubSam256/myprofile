@@ -1,0 +1,177 @@
+@font-face {
+    src: url(qcefonts/Zuume\ Regular.ttf);
+    font-family: Zuume;
+}
+
+@font-face {
+    src: url(qcefonts/Zuume\ ExtraLight.ttf);
+    font-family: ZuumeEL;
+}
+
+@font-face {
+    src: url(qcefonts/Zuume\ Light.ttf);
+    font-family: ZuumeL;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.sidebar {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 250px;
+  background-color: #1c1c1c;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+  border-radius: 20px;
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.sidebar a {
+  color:#fff;
+  text-decoration: none;
+}
+.sidebar a:hover {
+  color:#cd2042;
+  cursor: pointer;
+}
+
+.signout {
+  background-color:#1c1c1c;
+  color: #fff;
+  padding: 10px;
+  border-top: 1px solid grey;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.signout:hover {
+  color:#cd2042;
+}
+
+.profile-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.profile-content h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color:#cd2042;
+}
+
+.profile-details {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 10px;
+  height: 60%;
+}
+
+
+#cartco {
+    overflow-x: auto;
+}
+
+#cartco table{
+    background-color: transparent;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#cartco i {
+    color: #fd3029;
+    font-size: clamp(1rem, 1.2vw, 1.7rem);
+}
+
+#cartco img {
+    width: 70px;
+}
+
+#cartco td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#cartco td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#cartco td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#cartco td:nth-child(4) {
+    width: 150px;
+    text-align: center;
+}
+
+#cartco td:nth-child(4), 
+#cartco td:nth-child(5),
+#cartco td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#cartco td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cartco table thead {
+    border: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+
+#cartco table thead td {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: clamp(1.1rem, 1.1vw, 1.7rem);
+    padding: 18px 0;
+}
+
+#cartco table tr td {
+    padding-top: 15px;
+}
+
+#cartco table td {
+    font-size: clamp(1.1rem, 1.1vw, 1.7rem);
+}
+
+/*SECURITY*/
+
+  
